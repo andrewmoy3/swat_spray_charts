@@ -3,10 +3,6 @@ import requests
 import re
 from bs4 import BeautifulSoup as bs
 
-def main():
-    url = 'https://berryvikings.com/sports/baseball/roster/'
-    get_roster(url)
-
 def get_roster(url):
     response = requests.get(url)
     soup = bs(response.text, 'html.parser')
@@ -17,12 +13,8 @@ def get_roster(url):
 
     data = []
 
-    with open('roster.csv', 'w', newline='') as file:
-        for i in range(len(firstnames)):
-            data.append([firstnames[i].text, lastnames[i].text]) 
+    for i in range(len(firstnames)):
+        data.append([firstnames[i].text, lastnames[i].text]) 
     
     df = pd.DataFrame(data, columns=["First Name", "Last Name"]) 
     df.to_csv("roster.csv", index=False)
-
-if __name__ == "__main__":
-    main()
