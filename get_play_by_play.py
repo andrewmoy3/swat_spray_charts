@@ -17,7 +17,10 @@ def get_play_by_play(url):
     for table in playbyplay:
         for row in table.find_all('td'):
             if rgx.match(row.text):
-                data.append([row.text])
+                txt = row.text.strip().split()
+                name = " ".join(txt[:2])
+                play = " ".join(txt[2:])
+                data.append([name, play])
 
-    df = pd.DataFrame(data, columns=["Play by Play"])
+    df = pd.DataFrame(data, columns=["Name", "Play"])
     df.to_csv("play-by-play.csv", index=False)
