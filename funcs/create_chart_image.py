@@ -3,9 +3,11 @@ import pandas as pd
 from PIL import Image, ImageDraw, ImageFont
 import os
 
+
 # positions = {'1b', 'first base', '2b', 'second base', '3b', 'third base', 'ss', 'shortstop', 'lf','left field', 'left side', 'cf', 'center field', 'up the middle', 'rf', 'right field', 'right side', 'p', 'pitcher', 'c', 'catcher'}
 
-def create_chart(team, first_name, last_name):
+# gets data from spray_charts/ folder and creates a spray chart image, saves to spray_chart_pics/ folder
+def create_chart_image(team, first_name, last_name, number):
     # read in data from csv files
     if not os.path.exists(f'spray_chart_pics/{team}'):
         os.mkdir(f'spray_chart_pics/{team}')
@@ -70,12 +72,21 @@ def create_chart(team, first_name, last_name):
         return round(.5 / ratio)
 
     # add name to top of photo
-    # Add name to the top of the image
-    name_text = first_name + ' ' + last_name
-    name_x = width // 2  
-    name_y = 20  
-    text_width = draw.textbbox((0, 0), name_text, font=font)[2] 
-    draw.text((name_x - text_width // 2, name_y), name_text, fill=(0, 0, 0), font=font)
+    name_text = f"{first_name} {last_name}\n{int(number)}"
+    name_x = width // 2  # Center X
+    name_y = 20  # Start Y position
+    lines = name_text.split("\n")
+    line_spacing = 5  # Adjust line spacing if needed
+    y_offset = name_y
+
+    for line in lines:
+        bbox = draw.textbbox((0, 0), line, font=font)  # Get bounding box (left, top, right, bottom)
+        text_width = bbox[2] - bbox[0]  # Calculate text width
+        text_height = bbox[3] - bbox[1]  # Calculate text height
+        
+        draw.text((name_x - text_width // 2, y_offset), line, fill=(0, 0, 0), font=font)
+        
+        y_offset += text_height + line_spacing  # Move Y position for next line
 
     draw.text((centered_x(first, width - third_x), third_y), f"{first}", fill=(round(255*first_ratio), 0, blue_value(first_ratio)), font=font)
     draw.text((centered_x(second, width - ss_x), ss_y), f"{second}", fill=(round(255*second_ratio), 0, blue_value(second_ratio)), font=font)
@@ -89,6 +100,3 @@ def create_chart(team, first_name, last_name):
 
     img.save(f'spray_chart_pics/{team}/{first_name}_{last_name}.jpg')
 
-
-if __name__ == "__main__":
-    create_chart(sys.argv[1], sys.argv[2], sys.argv[3])
