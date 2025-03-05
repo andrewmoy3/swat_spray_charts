@@ -8,12 +8,12 @@ from funcs.get_boxscore_links import get_boxscore_links
 from funcs.stitch_to_pdf import stitch_to_pdf
 import time
 
-# 2.5 minutes
 ##########
 # CHANGE THESE FOR EACH TEAM
-team = 'rutgers_camden'
-roster_url = 'https://scarletraptors.com/sports/baseball/roster'
-schedule_url = 'https://scarletraptors.com/sports/baseball/schedule/'
+team = 'widener'
+url_team_name = 'widenerpride'
+roster_url = f'https://{url_team_name}.com/sports/baseball/roster'
+schedule_url = f'https://{url_team_name}.com/sports/baseball/schedule/'
 ##########
 
 def main():
@@ -23,7 +23,7 @@ def main():
     ## get boxscore links from schedule pages
     ## about 1.5 - 2 seconds
     start = time.time()
-    boxscores = get_boxscore_links(schedule_url, 2021, 2025)
+    boxscores = get_boxscore_links(schedule_url, url_team_name, 2021, 2025)
     print(len(boxscores))
     end = time.time()
     print("Box Scores scraped: ", end - start)
@@ -31,7 +31,7 @@ def main():
     ## writes roster to roster.csv, play by play to play-by-play.csv
     ## uncomment to use, leave commented if data already scraped
     ## < 1 second
-    get_roster(roster_url, team)
+    # get_roster(roster_url, team)
 
     ## writes play by play data to play-by-play.csv
     ## uncomment to use, leave commented if data already scraped

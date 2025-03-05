@@ -2,7 +2,7 @@ import requests
 from bs4 import BeautifulSoup as bs
 from concurrent.futures import ThreadPoolExecutor
 
-def get_boxscore_links(url, start_year, end_year):
+def get_boxscore_links(url, url_team_name, start_year, end_year):
     urls = []
     for year in range(start_year, end_year + 1):
         urls.append(url + str(year))
@@ -11,10 +11,9 @@ def get_boxscore_links(url, start_year, end_year):
     def fetch(url):
         response = requests.get(url)
         soup = bs(response.text, 'html.parser')
-        # return ['https://stocktonathletics.com/' + a['href'] for a in soup.find_all('a', href=True) if 'boxscore' in a['href']]
-        return ['https://stocktonathletics.com/' + a['href'] for a in soup.find_all('a', href=True) if 'boxscore' in a['href'] and "target" not in a.attrs]
+        return [f'https://{url_team_name}.com' + a['href'] for a in soup.find_all('a', href=True) if 'boxscore' in a['href']]
+        # return [f'https://{url_team_name}.com' + a['href'] for a in soup.find_all('a', href=True) if 'boxscore' in a['href'] and "target" not in a.attrs]
         
-    
     with ThreadPoolExecutor(max_workers=5) as executor:
         results = list(executor.map(fetch, urls))
         

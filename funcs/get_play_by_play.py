@@ -62,21 +62,32 @@ def getFullName(name, roster):
         first_name = row['First Name'].strip()
         last_name = row['Last Name'].strip()
         full_name = f"{first_name} {last_name}"
+        if len(last_name) > 10:
+            last_name = last_name[:10]
+
         # Match "F. Last"
-        if re.fullmatch(r"[A-Z]\. [A-Z][a-z]*[A-Za-z'-]*", name):
+        if re.fullmatch(r"[A-Z]{1}\. [A-Z][a-z]*[A-Za-z'-]*", name):
             if name.lower() == f"{first_name[0].lower()}. {last_name.lower()}":
                 return full_name, 1
+        # Match "F Last"
+        if re.fullmatch(r"[A-Z]{1} [A-Z][A-Za-z'-]*", name):
+            if name.lower() == f"{first_name[0].lower()} {last_name.lower()}":
+                return full_name, 1
         # Match "First Last"
-        elif re.fullmatch(r"[A-Z][a-z]*[A-Za-z'-]* [A-Z][a-z]*[A-Za-z'-]*", name):
+        elif re.fullmatch(r"[A-Z][A-Za-z'-]* [A-Z][A-Za-z'-]*", name):
             if name.lower() == full_name.lower():
+                return full_name, 1
+        # Match "Last,F"
+        elif re.fullmatch(r"[A-Z][A-Za-z'-]*,[A-Z]{1}", name):
+            if name.lower() == f"{last_name.lower()},{first_name[0].lower()}":
+                return full_name, 1
+        # Match "Last, F"
+        elif re.fullmatch(r"[A-Z][A-Za-z'-]*, [A-Z]{1}$", name):
+            if name.lower() == f"{last_name.lower()}, {first_name[0].lower()}":
                 return full_name, 1
         # Match "Last, First"
         elif re.fullmatch(r"[A-Z][A-Za-z'-]*, [A-Z][A-Za-z'-]*", name):
             if name.lower() == f"{last_name.lower()}, {first_name.lower()}":
-                return full_name, 1
-        # Match "Last,F"
-        elif re.fullmatch(r"[A-Z][A-Za-z'-]*,[A-Z]", name):
-            if name.lower() == f"{last_name.lower()},{first_name[0].lower()}":
                 return full_name, 1
         # Match "Last"
         else:

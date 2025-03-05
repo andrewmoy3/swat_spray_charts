@@ -11,6 +11,9 @@ def create_chart_image(team, first_name, last_name, number):
     # read in data from csv files
     if not os.path.exists(f'spray_chart_pics/{team}'):
         os.mkdir(f'spray_chart_pics/{team}')
+    
+    if not os.path.exists(f'spray_charts/{team}/{first_name}_{last_name}.csv'):
+        return
 
     df = pd.read_csv(f'spray_charts/{team}/{first_name}_{last_name}.csv')
     first = df.loc[df['Positions'] == '1b', '#'].values[0] + df.loc[df['Positions'] == 'first base', '#'].values[0]

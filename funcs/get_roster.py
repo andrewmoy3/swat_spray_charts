@@ -35,7 +35,8 @@ def get_roster(url,team):
         if num.match(n):
             data[player].append(n)
             player += 1
-            
+    
+    data = data[:player]
 
     df = pd.DataFrame(data, columns=["First Name", "Last Name", "Number"]) 
     df.to_csv(f"rosters/{team}.csv", index=False)

@@ -15,12 +15,13 @@ def create_chart_data(plays, team, first_name, last_name):
                 spray_chart[pos] += 1
                 
     ## write spray chart to csv
+    if sum(spray_chart.values()) > 50:
+        print(first_name, last_name, sum(spray_chart.values()))
     df = pd.DataFrame.from_dict(spray_chart, orient='index', columns=['#'])
     df.index.name = "Positions"
     df = df.reset_index()
-    df.to_csv(f'spray_charts/{team}/{first_name}_{last_name}.csv', index=False)
-    if sum(spray_chart.values()) > 50:
-        print(first_name, last_name)
+    if sum(spray_chart.values()) > 10:
+        df.to_csv(f'spray_charts/{team}/{first_name}_{last_name}.csv', index=False)
 
 # Find where the ball is hit to by returning first position found in string
 def ball_hit_to(play):
