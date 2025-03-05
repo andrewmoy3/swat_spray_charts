@@ -2,5 +2,10 @@ Include/
 Lib/
 Scripts/
 
+spray_chart_pics/
 spray_charts/
 rosters/
+pdfs/
+
+pyenv.cfg
+__pycache__/
