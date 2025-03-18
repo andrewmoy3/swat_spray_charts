@@ -11,8 +11,8 @@ def get_boxscore_links(url, url_team_name, start_year, end_year):
     def fetch(url):
         response = requests.get(url)
         soup = bs(response.text, 'html.parser')
-        return [f'https://{url_team_name}.com' + a['href'] for a in soup.find_all('a', href=True) if 'boxscore' in a['href']]
-        # return [f'https://{url_team_name}.com' + a['href'] for a in soup.find_all('a', href=True) if 'boxscore' in a['href'] and "target" not in a.attrs]
+        # return [f'https://{url_team_name}.com' + a['href'] for a in soup.find_all('a', href=True) if 'boxscore' in a['href']]
+        return [f'https://{url_team_name}.edu' + a['href'] for a in soup.find_all('a', href=True) if 'boxscore' in a['href'] and "target" not in a.attrs]
         
     with ThreadPoolExecutor(max_workers=5) as executor:
         results = list(executor.map(fetch, urls))
