@@ -10,10 +10,10 @@ import time
 
 ##########
 # CHANGE THESE FOR EACH TEAM
-team = 'case-western'
-url_team_name = 'athletics.case'
-roster_url = f'https://{url_team_name}.edu/sports/baseball/roster'
-schedule_url = f'https://{url_team_name}.edu/sports/baseball/schedule/'
+team = 'gettysburg'
+url_team_name = 'gettysburgsports'
+roster_url = f'https://{url_team_name}.com/sports/baseball/roster'
+schedule_url = f'https://{url_team_name}.com/sports/baseball/schedule/'
 ##########
 
 def main():
@@ -37,7 +37,7 @@ def main():
     ## uncomment to use, leave commented if data already scraped
     ## 2 seconds per season
     start = time.time()
-    # get_play_by_play(boxscores, team)
+    get_play_by_play(boxscores, team)
     end = time.time()
     print("Play by Plays scraped: ", end - start)
 

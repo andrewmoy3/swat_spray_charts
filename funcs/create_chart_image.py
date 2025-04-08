@@ -17,7 +17,6 @@ def create_chart_image(team, first_name, last_name, number):
 
     df = pd.read_csv(f'spray_charts/{team}/{first_name}_{last_name}.csv')
 
-    print(df.loc[df['Positions'] == '1b', '#'].values)
     first = df.loc[df['Positions'] == '1b', '#'].values[0] + df.loc[df['Positions'] == 'first base', '#'].values[0]
     second = df.loc[df['Positions'] == '2b', '#'].values[0] + df.loc[df['Positions'] == 'second base', '#'].values[0]
     third = df.loc[df['Positions'] == '3b', '#'].values[0] + df.loc[df['Positions'] == 'third base', '#'].values[0]

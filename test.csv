@@ -1,249 +1,645 @@
 ,Play
-1025,"singled to right field; Talarico, Nick advanced to third."
-1026,advanced to second on a wild pitch.
-1056,grounded out to ss.
-1063,grounded out to ss.
-1070,struck out looking.
-1077,grounded out to 2b.
-1115,grounded out to ss (1-1).
-1121,"doubled to left field (0-1); Mackenzie advanced to second, out at third lf to 3b."
-1126,singled through the right side (1-1).
-1135,"popped up to 1b, bunt (2-0)."
-1143,grounded out to p.
-1149,struck out looking.
-1156,"singled to pitcher, bunt, advanced to second on a throwing error by p; Haley, Trey advanced to third."
-1162,struck out swinging.
-1177,"grounded into double play ss to 2b to 1b; Haley, Trey out on the play."
-1183,popped up to 1b.
-1191,grounded out to 3b.
-1205,singled up the middle.
-1212,"grounded out to p, SAC, bunt; Mackenzie, Kevin advanced to second."
-1218,popped up to 2b.
-1248,struck out swinging.
-1254,singled to right field.
-1261,flied out to cf.
-1269,walked.
-1285,"reached on a fielder's choice; Haley, Trey out at home 3b to c."
-1286,stole second.
-1292,"singled to right field; Andreyko, Logan advanced to third."
-1293,stole second.
-1300,grounded out to ss.
-1307,walked.
-1314,"singled to left field, RBI; Haley, Trey scored."
-1408,struck out looking.
-1414,struck out looking.
-1421,grounded out to p.
-1429,struck out swinging.
-1475,"lined out to rf, sacrifice fly, RBI; Talarico, Nick advanced to second; Haley, Trey advanced to third; Carinci, Zack scored."
-1480,"reached on a fielder's choice; Talarico, Nick out at third p unassisted."
-1485,"doubled, ground-rule."
-1492,grounded out to 3b.
-1500,singled to center field.
-1505,walked.
-1506,advanced to second on a wild pitch.
-1509,struck out swinging.
-1514,struck out looking.
-1520,singled to center field.
-1525,grounded out to ss.
-1532,hit by pitch.
-1533,stole second.
-1538,grounded out to ss.
-1543,flied out to cf.
-1552,"walked; Anderson, Jack advanced to second."
-1559,walked (3-2 FBBFBB).
-1560,advanced to second on a balk; Anderson advanced to third on a balk.
-1569,struck out swinging (0-2 KKS).
-1577,singled through the left side (2-2 BSFB).
-1578,stole second.
-1586,struck out looking (1-2 FKBK).
-1595,struck out swinging (0-2 KSS).
-1598,singled to left field (0-1 F).
-1605,grounded out to 2b (0-0).
-1611,"grounded out to p, bunt (0-0)."
-1617,lined into double play ss to 1b (2-0 BB); Levinson out on the play.
-1625,walked (3-2 KBKFBBB).
-1628,grounded out to 3b (1-2 BSF); Anderson advanced to third.
-1634,"singled up the middle, RBI (0-0); Anderson scored."
-1635,advanced to second on a wild pitch.
-1644,"singled through the left side, RBI (0-0); Anderson advanced to second, advanced to third on an error by lf; Stephenson scored."
-1650,"singled up the middle, 2 RBI (2-0 BB); Anderson scored; Levinson scored."
-1656,struck out swinging (0-2 KFS).
-1666,"grounded out to 3b, RBI (1-2 BFF); Levinson scored."
-1674,walked (3-1 FBBBB); Levinson advanced to second; Lenahan advanced to third.
-1679,"doubled to left center; Anderson, Jack advanced to third."
-1685,walked.
-1686,stole second.
-1687,advanced to third on a wild pitch.
-1692,walked.
-1698,singled to shortstop.
-1704,"walked; Levinson, Owen out at third c to 3b, caught stealing."
-1710,struck out swinging.
-1715,"walked; Anderson, Jack advanced to second."
-1720,"flied out to lf, sacrifice fly, RBI; Mackenzie, Kevin scored."
-1727,flied out to cf.
-1734,grounded out to 3b.
-1741,"reached on a fielder's choice; Anderson, Jack out at second 3b to 2b."
-1742,advanced to second on a wild pitch.
-1747,"reached on a fielder's choice; Anderson, Jack out at second 3b to 2b."
-1753,"Dropped foul ball, E3."
-1754,"singled through the left side; Anderson, Jack advanced to third."
-1759,fouled out to 1b.
-1765,flied out to cf.
-1767,grounded out to 3b.
-1772,grounded out to 3b.
-1778,"reached first on a fielding error by p; Anderson, Jack advanced to third."
-1784,"singled up the middle, RBI; Anderson, Jack advanced to third; Levinson, Owen scored."
-1789,walked.
-1790,out at second 2b to ss.
-1796,walked.
-1802,flied out to rf.
-1808,doubled to right center.
-1809,stole third.
-1817,lined out to rf.
-1824,walked.
-1831,"grounded into double play ss to 2b to 1b; Anderson, Jack out on the play."
-1844,struck out looking.
-1849,grounded out to 3b.
-1855,grounded out to ss.
-1861,"doubled down the lf line, RBI; Levinson, Owen scored, unearned."
-1867,"grounded out to 3b, RBI; Levinson, Owen scored."
-1876,"singled through the right side, RBI; Anderson, Jack scored."
-1882,grounded out to ss.
-1888,"flied out to lf, sacrifice fly, RBI; Moore, Caidan scored, unearned."
-1894,"reached on a fielder's choice; Christie, RJ out at second ss unassisted."
-1901,fouled out to lf.
-1906,doubled to left field.
-1911,singled to left field; J. Anderson advanced to second.
-1916,singled through the right side; J. Anderson advanced to second.
-1921,struck out looking.
-1926,walked.
-1931,"singled through the right side, 2 RBI; J. Anderson advanced to third; O. Levinson scored; L. Andreyko scored."
-1936,singled to left field; J. Anderson advanced to second.
-1937,advanced to second; J. Anderson advanced to third on a wild pitch.
-1942,grounded out to p.
-1944,"doubled to right center, RBI; J. Anderson scored."
-1951,grounded out to p; J. Anderson advanced to third.
-1958,struck out looking.
-1964,"walked, RBI; O. Levinson advanced to second; R. Christie advanced to third; J. Smith scored."
-1970,struck out swinging.
-1976,singled up the middle.
-1981,flied out to rf; O. Levinson advanced to third.
-1986,singled up the middle.
-1988,stole second.
-1992,"singled to right field, RBI; J. Anderson scored."
-1998,grounded out to 2b; J. Anderson advanced to third.
-2004,"grounded out to ss, RBI; J. Anderson advanced to third; O. Levinson scored."
-2010,singled through the left side; J. Anderson advanced to third.
-2017,singled to center field; J. Anderson advanced to third.
-2020,stole third.
-2024,struck out swinging.
-2033,singled to center field.
-2040,struck out looking.
-2045,grounded out to 3b.
-2050,struck out swinging.
-2055,"singled through the left side, 2 RBI; Anderson, Jack advanced to second; Levinson, Owen scored; Andreyko, Logan scored."
-2062,flied out to rf.
-2068,walked.
-2073,grounded out to p.
-2078,"tripled to right field, 2 RBI; Anderson, Jack scored; Talarico, Nick scored."
-2084,singled to left field.
-2085,stole second.
-2087,"stole third, scored on a throwing error by c."
-2092,flied out to rf.
-2096,flied out to rf.
-2101,grounded out to 2b.
-2109,struck out looking.
-2115,flied out to lf.
-2122,"singled up the middle, RBI; Levinson, Owen scored."
-2128,"reached on a fielder's choice to shortstop; Levinson, Owen out at second ss to 2b."
-2130,"singled through the right side; Anderson, Jack advanced to second."
-2131,"advanced to second on a wild pitch; Anderson, Jack advanced to third on a wild pitch."
-2137,walked.
-2142,"flied out to rf, sacrifice fly, RBI; Levinson, Owen scored."
-2148,"singled to right field, 2 RBI; Anderson, Jack scored; Andreyko, Logan scored."
-2149,"out at first p to 1b, picked off."
-2154,struck out swinging.
-2159,flied out to cf.
-2163,grounded out to 2b; J. Anderson advanced to third.
-2170,struck out swinging.
-2175,singled through the left side; O. Levinson advanced to second.
-2180,grounded out to 3b.
-2185,flied out to lf.
-2191,reached on an error by ss (0-0); Anderson advanced to second.
-2196,"grounded out to 3b, RBI (0-0); Andreyko scored, unearned."
-2201,grounded out to 3b (0-1 K).
-2205,singled through the left side (0-0); Levinson advanced to second.
-2209,grounded out to 3b (2-1 FBB).
-2212,fouled out to 1b (0-0).
-2215,singled up the middle; Jack Anderson advanced to second.
-2220,"homered to left field, 3 RBI; Jack Anderson scored; Logan Andreyko scored."
-2225,"grounded out to 3b, RBI; Owen Levinson scored."
-2230,grounded out to cf unassisted.
-2237,reached first on a fielding error by ss; Owen Levinson advanced to third on the error.
-2245,reached on a fielder's choice; Jack Anderson out at second p to ss.
-2246,stole second.
-2252,"reached on a fielder's choice, bunt; Jack Anderson out at second p to ss."
-2258,grounded out to 2b.
-2265,reached on a fielder's choice; Jack Anderson out at second ss to 2b.
-2271,singled up the middle; Jack Anderson advanced to second; Logan Andreyko advanced to third.
-2277,flied out to rf.
-2280,singled to left field.
-2287,grounded out to 3b.
-2293,popped up to 2b.
-2300,"hit by pitch, RBI; Jack Anderson advanced to second; Owen Levinson advanced to third; Logan Andreyko scored."
-2308,tripled down the rf line.
-2319,"flied out to cf, SF, RBI (2-1 BKB); Andreyko scored."
-2327,flied out to lf (1-0 B).
-2338,flied out to cf (1-1 KB).
-2347,lined out to cf (1-0 B).
-2358,singled up the middle (0-0).
-2364,walked (3-1 BFBBB).
-2371,flied out to lf (2-1 BKB).
-2378,grounded out to p (0-1 K).
-2386,reached on a fielder's choice (0-2 SK); Andreyko advanced to second; Stillson advanced to third; Powers out at home 3b to c.
-2394,walked (3-0 BBBB); Andreyko advanced to second.
-2406,struck out swinging (2-2 KFBBS).
-2423,flied out to lf.
-2434,struck out swinging (0-2 KSS).
-2444,reached on a fielder's choice (2-2 SKBBF); Andreyko out at second 3b to 2b.
-2455,struck out swinging (0-2 KSS).
-2465,hit into double play 2b to ss to 1b (2-0 BB); Andreyko out on the play.
-2476,reached on a fielder's choice (0-2 KF); Alonso out at second ss.
-2477,advanced to second on a balk.
-2576,pinch hit for Stillson.
-2577,struck out swinging (0-2 KSS).
-2709,to 2b for Carinci.
-2720,singled through the left side (1-0 B).
-2721,stole second.
-2730,grounded into double play ss to 2b to 1b (0-0); Stillson out on the play.
-2740,"singled to first base, RBI (0-0); Stillson advanced to third; Alonso scored."
-2749,grounded into double play ss to 2b to 1b (1-0 B); Stillson out on the play.
-3393,to p for Cropper.
-3760,pinch hit for Arterburn.
-3761,doubled to left field (1-1 BK).
-3765,to 2b.
-3772,popped up to 2b (2-1 KBB).
-3781,singled to center field (1-1 BK); Stillson advanced to second.
-3789,struck out looking (1-2 BKKK).
-3800,walked (3-2 KBBKBB).
-3802,"out at second c to 2b, caught stealing."
-3810,singled through the right side (1-0 B); Stillson advanced to third.
-3818,walked (3-0 BBBB).
-3819,"advanced to second on a throwing error by p, failed pickoff attempt, advanced to third."
-3827,to lf.
-3831,singled to left center (3-2 FBKBB).
-3841,walked (3-1 BBBKB); Donahue advanced to second; Stephenson advanced to third.
-4021,pinch hit for Arterburn.
-4022,flied out to cf (2-2 BKSB).
-4028,to ss.
-4040,grounded out to p (1-0 B); Harms advanced to third.
-4049,struck out looking (0-2 KFK).
-4059,struck out looking (1-2 KSBK).
-4225,to 2b for Donahue.
-4238,to 2b for Trout.
-4239,singled through the left side; Alonso advanced to second.
-4248,struck out swinging.
-4259,struck out looking.
-4271,struck out swinging.
-4282,struck out looking.
-4291,"reached on a fielding error by lf, SF, RBI; Alonso advanced to second; Harms advanced to third; Stillson scored."
+3,to 3b for P. Toothman.
+4,reached on an error by c.
+5,pinch hit for A. Donlan.
+6,struck out swinging.
+7,to 2b.
+8,pinch hit for A. Donlan.
+9,"tripled to left field, RBI; M. Muir scored."
+10,to 2b.
+11,struck out looking.
+17,singled to left field; J. McCloskey advanced to second.
+18,grounded out to 1b unassisted.
+19,"out at first p to 2b, SAC; J. McCloskey advanced to second; S. Manieri advanced to third."
+20,reached on a fielder's choice; J. McCloskey out at second ss unassisted; M. Seibert advanced to third.
+21,out at first 2b to p.
+22,doubled.
+23,lined out to p.
+25,struck out swinging.
+26,grounded out to 1b unassisted.
+27,"singled through the left side, 2 RBI; M. Peipher scored; S. Manieri scored."
+28,flied out to rf.
+29,tripled to center field.
+30,singled to first base.
+31,stole second.
+32,struck out swinging.
+34,walked; A. Decker advanced to second; T. Neels advanced to third.
+36,"grounded out to 2b, RBI; T. Neels scored."
+37,"grounded out to 2b, RBI; A. Decker scored."
+38,flied out to lf.
+39,singled to center field.
+41,singled to center field; A. Decker advanced to third.
+42,doubled to left field.
+43,struck out looking.
+44,"singled through the right side, RBI; T. Neels advanced to second; M. Muir scored."
+45,struck out looking.
+46,singled to left field.
+47,"singled to left field, RBI; T. Neels scored."
+48,"singled through the left side, RBI; A. Decker advanced to second; T. Neels scored, unearned."
+49,flied out to lf.
+50,singled up the middle; A. Decker advanced to second; T. Neels advanced to third.
+58,grounded out to 2b.
+59,walked.
+60,"out at first p to ss to 1b, picked off."
+61,singled to center field; M. Muir advanced to third.
+62,"out at first c to ss to 1b, caught stealing."
+64,grounded out to p.
+65,grounded out to 2b.
+66,singled to second base; A. Decker advanced to second.
+67,singled to left field.
+68,grounded out to 2b.
+69,reached on a dropped fly by lf.
+70,struck out looking.
+71,struck out swinging.
+73,reached on a fielder's choice; A. Decker out at second ss to 2b.
+74,lined out to 3b.
+76,singled to left field; A. Decker advanced to second.
+77,"out at first 1b to 2b, SAC; A. Decker advanced to second."
+78,struck out looking (0-2 KSK).
+79,"flied out to lf, SF, RBI (0-0); M. Muir scored, unearned."
+80,reached on a fielder's choice to shortstop (1-1 BF); A. Decker out at second ss to 2b.
+81,stole second.
+82,walked (3-0 BBBB).
+83,"singled through the right side, 2 RBI (1-0 B); A. Decker advanced to third; M. Muir scored, unearned; K. Miller scored."
+84,stole second.
+86,walked.
+87,grounded out to 2b.
+88,flied out to lf.
+89,flied out to lf.
+90,struck out swinging.
+91,struck out swinging.
+93,pinch hit for P. Toothman.
+94,grounded out to p.
+95,to 2b.
+96,reached on a fielder's choice; D. Preziuso advanced to second on a throwing error by 1b; M. Seibert advanced to third.
+98,grounded out to 2b.
+99,"grounded out to 3b, RBI; A. Decker scored."
+111,singled to left field; A. Decker advanced to second.
+112,grounded into double play 2b to ss to 1b; M. Seibert out on the play.
+113,"walked, RBI; M. Seibert advanced to second; A. Decker advanced to third; T. Neels scored."
+114,struck out swinging.
+116,pinch hit for E. Ajewole.
+117,"doubled down the lf line, 3 RBI; A. Decker scored; T. Neels scored; J. O'Neil scored."
+118,to lf.
+119,singled up the middle; A. Decker advanced to third.
+120,flied out to cf.
+121,grounded out to 2b.
+122,grounded out to 1b unassisted.
+123,singled down the lf line.
+124,flied out to rf.
+125,struck out looking.
+126,"reached first on an error by lf, advanced to second on the error."
+127,lined into double play ss to 1b; A. Decker out on the play.
+129,pinch hit for M. Seibert.
+130,grounded out to ss.
+131,flied out to lf.
+132,flied out to rf.
+134,singled to center field.
+135,"reached on a fielder's choice, RBI; M. Peipher out at second 2b to ss; K. Miller advanced to third; D. Preziuso scored."
+137,"doubled to left field, RBI; M. Peipher scored."
+138,advanced to third on a wild pitch.
+139,tripled to center field (2-1 BSB).
+140,"grounded out to 1b unassisted, RBI (0-0); D. Preziuso advanced to second; J. McCloskey scored."
+141,"tripled to center field, 3 RBI (0-1 F); D. Preziuso scored, unearned; M. Seibert scored, unearned; M. Levant scored, unearned."
+142,walked (3-2 FBFBBB); D. Preziuso advanced to second.
+164,walked.
+165,stole second; D. Preziuso stole third.
+166,"singled, RBI; D. Preziuso scored, unearned."
+167,hit by pitch; D. Preziuso advanced to second.
+207,doubled through the left side; D. Preziuso advanced to third.
+209,flied out to cf.
+211,flied out to cf.
+213,grounded out to 2b.
+215,singled to right field; D. Preziuso scored.
+218,walked.
+222,"tripled to center field, RBI; D. Preziuso scored, unearned; R. Murphy scored."
+225,doubled to center field; D. Preziuso advanced to third.
+231,walked; D. Preziuso advanced to third on a wild pitch; B. Laqui scored on a wild pitch.
+238,flied out to lf (1-2 SSB).
+240,reached on a fielder's choice (1-2 SBS); D. Preziuso out at second ss to 2b; R. Murphy advanced to third.
+244,"homered, 2 RBI (1-1 BS); D. Preziuso scored."
+246,singled to right field (1-2 BSS); D. Preziuso advanced to second.
+248,walked (3-2 BSBBSB).
+249,struck out swinging; D. Preziuso stole second.
+250,reached on an error by 1b.
+251,popped up to 3b.
+253,grounded out to 1b unassisted.
+259,singled to right field.
+260,singled to right field (1-1 BS); D. Preziuso advanced to second.
+261,stole second; D. Preziuso stole third.
+262,doubled to center field (3-1 BBBS).
+263,grounded out to 2b (3-2 BBSFBF).
+265,singled to second base (2-2 BSBF); J. McCloskey advanced to third.
+267,singled to center field (0-0); D. Preziuso advanced to second.
+268,advanced to second on a wild pitch; D. Preziuso advanced to third on a wild pitch.
+273,flied out to cf (1-2 SFB).
+274,tripled to center field (1-0 B).
+275,grounded out to p (2-2 SBSB).
+276,walked (3-0 BBBB).
+277,struck out swinging (3-2 BFBBSFS).
+280,singled to center field (1-1 SB).
+284,grounded out to 2b (2-2 SBBF).
+288,singled to right field (0-1 F); B. Anderson out at third rf to c.
+302,tripled to right field (1-2 KKFB).
+303,flied out to rf (1-1 BK).
+304,"singled through the left side, RBI (0-0); D. Preziuso advanced to second; J. McCloskey scored, unearned."
+305,stole second; D. Preziuso stole third.
+306,"singled to first base, RBI (1-2 KKFB); D. Preziuso advanced to second; J. McCloskey advanced to third; P. Toothman scored, unearned."
+308,grounded out to 1b unassisted (0-0).
+318,walked (3-2 FBBKBB); D. Preziuso advanced to second.
+319,stole second; D. Preziuso stole third.
+320,walked (3-1 BBBKB).
+322,grounded out to 1b unassisted (2-1 KBB).
+323,lined out to 2b (0-1 K).
+325,"singled to center field, RBI, advanced to second on a fielding error by cf (3-0 BBB); D. Preziuso advanced to third, scored on the error; M. Levant scored."
+326,advanced to third on a wild pitch.
+339,walked (3-2 BBFKBB).
+341,struck out looking (1-2 FBSK).
+343,"singled to second base (1-2 KKB); K. Miller advanced to second, advanced to third on the error; D. Preziuso advanced to third, scored on a fielding error by 2b, unearned."
+360,singled through the right side (1-1 KB); K. Miller advanced to second.
+363,lined out to ss (0-0).
+366,doubled to left field (1-0 B).
+369,struck out looking (1-2 KBKK).
+372,out at first 1b to p (0-0).
+374,doubled to left center (1-0 B); K. Miller advanced to third.
+376,walked (3-0 BBBB).
+377,advanced to second on a wild pitch.
+380,singled through the right side (0-0); K. Miller advanced to second.
+385,doubled to center field (1-2 KBF).
+388,singled.
+389,flied out to lf.
+392,reached on an error by 2b.
+393,stole second.
+396,"homered, 3 RBI; D. Preziuso scored; L. Gregory scored, unearned."
+398,"hit by pitch, RBI; D. Preziuso advanced to second; M. Seibert advanced to third; M. Levant scored."
+399,struck out swinging.
+402,reached on a fielder's choice (2-0 BB); K. Miller out at second ss to 2b.
+403,stole second.
+405,struck out swinging (3-2 BSKBBS).
+407,flied out to cf (3-2 BKBBK).
+409,singled through the left side (0-1 K); M. Seibert advanced to second.
+412,reached on a fielder's choice (1-0 B); K. Miller out at second 1b to ss.
+414,walked; D. Preziuso advanced to third on a wild pitch.
+415,tripled to center field.
+416,walked; D. Preziuso advanced to second.
+417,walked; D. Preziuso advanced to second; J. McCloskey advanced to third.
+420,"homered to right field, 2 RBI; D. Preziuso scored."
+421,"doubled down the rf line, RBI; D. Preziuso scored."
+422,walked.
+423,"out at first c to 2b to ss to 1b, caught stealing; D. Preziuso scored on the throw."
+427,grounded out to 2b (0-0); M. Seibert advanced to second.
+429,grounded out to 2b (1-0 B).
+432,struck out swinging (2-2 BFFFBFFFS).
+435,grounded out to 1b unassisted (3-1 BBBK).
+436,reached on a fielder's choice (0-1 F); D. Preziuso out at second 1b to ss.
+437,"singled to right field, RBI (2-1 BSB); D. Preziuso scored."
+440,flied out to lf (0-2 KSF).
+442,walked (3-1 BBKBB).
+443,stole second.
+445,singled to center field (2-0 BB).
+446,advanced to second on a wild pitch.
+447,advanced to third on a wild pitch.
+452,walked (3-1 KBBBB); K. Miller advanced to second.
+453,walked (3-2 BKFBBB).
+455,struck out looking (1-2 FBSK).
+458,flied out to cf (1-0 B).
+460,fouled out to 3b (0-0).
+463,singled to right field (0-2 SS); P. Toothman advanced to second.
+469,struck out swinging (0-2 FSS).
+475,singled to first base (1-0 B).
+493,reached first on a fielding error by p.
+496,walked.
+499,out at first 1b to p.
+503,walked; K. Miller advanced to second.
+507,struck out looking.
+510,doubled to left center (0-1 K).
+512,struck out looking (2-2 BBSKK).
+513,grounded out to 1b unassisted (0-0).
+530,"singled up the middle, RBI; D. Preziuso scored."
+531,stole second.
+532,grounded out to 2b.
+534,grounded out to 2b.
+536,"reached on a dropped fly by lf, advanced to second."
+539,"flied out to cf, SF, RBI; D. Preziuso scored."
+541,grounded out to 2b; K. Miller advanced to third.
+542,struck out looking.
+544,struck out swinging.
+545,singled through the right side; K. Miller advanced to second.
+546,advanced to second; K. Miller advanced to third on a wild pitch.
+547,flied out to lf to left center.
+549,flied out to lf (2-2 KBBK).
+552,struck out swinging (2-2 BFBFS).
+558,reached on a fielder's choice to first base (0-2 KFF); K. Miller out at second 1b to ss; D. Preziuso advanced to third.
+564,"singled to right center, RBI (1-0 B); K. Miller advanced to third; D. Preziuso scored."
+568,intentionally walked.
+572,"doubled to left center, 2 RBI (3-2 BFFBB); K. Miller scored."
+574,"singled to center field, RBI (2-1 KBB); K. Miller advanced to second; D. Preziuso scored."
+576,struck out swinging (1-2 BFSS).
+579,popped up to 2b (3-2 KFBBB).
+582,intentionally walked.
+586,"singled down the lf line, RBI (0-0); K. Miller advanced to second; D. Preziuso scored."
+588,struck out swinging (0-2 SSS).
+590,grounded out to 3b (2-1 BFB).
+597,struck out swinging (1-2 BKSS).
+609,struck out swinging (3-2 BKBFFFBS).
+611,flied out to cf (2-1 BKB).
+613,doubled down the rf line (1-1 BS).
+616,reached on a fielder's choice to first base (0-0); K. Miller out at second 1b to ss.
+617,advanced to second on a passed ball.
+620,intentionally walked.
+622,walked.
+624,singled to shortstop.
+625,stole second.
+628,doubled to left field.
+630,"singled to center field, advanced to second on the throw; K. Miller advanced to third."
+635,hit by pitch.
+636,singled to left field (2-1 BSB).
+639,flied out to lf (3-2 SFFBBB).
+641,"doubled down the rf line, RBI (1-0 B); D. Preziuso advanced to third; M. Nichols scored."
+643,walked (3-1 BBSBB).
+663,grounded out to 1b unassisted.
+665,flied out to lf.
+667,"tripled to right field, RBI; M. Nichols scored."
+669,flied out to cf.
+673,singled to left field; D. Preziuso advanced to second.
+674,doubled to left center.
+678,reached on an error by 2b; R. Murphy advanced to second.
+682,grounded out to 2b.
+686,struck out swinging.
+689,intentionally walked.
+691,flied out to cf (3-1 BFBB).
+694,flied out to rf (3-1 BBBK).
+696,struck out swinging (2-2 KBBKS).
+698,out at first 1b to p (3-2 BFSFBFB).
+712,singled to right field (2-2 BFBK); K. Miller advanced to second.
+717,"singled, out at second rf to ss (1-0 B); P. Toothman advanced to third."
+722,walked (3-2 BBBKFB).
+726,singled to right field (0-0); K. Miller advanced to second.
+729,struck out swinging (1-2 KBSS).
+730,fouled out to lf (1-1 KB).
+733,flied out to cf to left center (1-2 BKK).
+735,walked (3-2 BBKSBB).
+740,"singled to right field, RBI (0-0); D. Preziuso advanced to third; M. Nichols scored."
+742,out at third c to 3b.
+744,flied out to rf (1-2 BKKF).
+747,struck out looking (3-2 BSSBBK).
+750,doubled to left center (0-0); D. Preziuso advanced to third.
+753,"struck out swinging, out at first c to 1b (1-2 FFFFFFFBS)."
+765,struck out swinging.
+767,grounded out to 2b.
+770,struck out swinging.
+778,walked; A. Donlan advanced to second.
+780,"tripled to right center, RBI; David Preziuso scored."
+787,struck out swinging.
+794,flied out to cf.
+802,grounded out p to 2b to 1b; Matthew Vivona advanced to second.
+812,struck out swinging.
+817,singled to shortstop; Alexey Stout advanced to second; David Preziuso advanced to third.
+823,singled through the left side.
+829,struck out swinging.
+836,flied out to cf; David Preziuso advanced to third.
+843,walked.
+849,popped up to cf.
+855,singled to left field; Alexey Stout advanced to third.
+861,walked.
+869,grounded out to 1b unassisted; M. Vivona advanced to second; J. Burke advanced to third.
+878,lined out to 2b.
+899,walked; M. Vivona advanced to second.
+907,grounded out to 1b unassisted.
+915,"singled through the left side, RBI; M. Vivona advanced to second; A. Stout scored."
+918,to 1b.
+925,flied out to rf.
+931,flied out to lf.
+938,flied out to rf.
+961,"singled to right field, RBI; J. Burke scored."
+969,struck out swinging.
+976,walked.
+983,struck out looking.
+988,"singled to right field, RBI; M. Vivona advanced to second, advanced to third on an error by rf; M. Nichols scored."
+995,singled to center field.
+1002,grounded out to ss.
+1009,"singled through the right side, RBI; M. Vivona advanced to third, scored on an error by cf, unearned; J. Burke scored."
+1029,walked; M. Vivona advanced to second.
+1035,walked; M. Vivona advanced to second.
+1042,singled through the left side.
+1049,struck out swinging.
+1057,to 1b.
+1059,struck out looking.
+1063,grounded out to 2b.
+1069,grounded out to 1b unassisted.
+1085,flied out to cf.
+1091,doubled to left field.
+1092,advanced to third on a wild pitch.
+1100,singled through the right side.
+1111,to dh for B. Anderson.
+1114,singled through the left side.
+1115,"out at second c to 2b, caught stealing."
+1119,"reached on a fielder's choice, RBI (0-1 F); A. Hicks out at second 1b to 2b; D. Preziuso scored, unearned."
+1124,"singled to center field, RBI; A. Hicks advanced to third; D. Preziuso scored."
+1130,singled to center field (1-2 SSB); A. Hicks advanced to second; D. Preziuso advanced to third.
+1131,advanced to second on a wild pitch; A. Hicks advanced to third on a wild pitch; D. Preziuso scored on a wild pitch.
+1150,singled to right field (0-0); A. Hicks advanced to second.
+1157,singled to right field (0-0).
+1165,hit by pitch (1-1 SB); J. Amirata advanced to second.
+1172,grounded out to p (0-2 SS); A. Hicks advanced to second; J. Amirata advanced to third.
+1181,flied out to cf (0-0); A. Hicks advanced to third.
+1193,flied out to cf (0-0).
+1195,grounded out to 2b (3-2 SSBBB).
+1202,grounded out to c (2-2 BSBSF).
+1210,singled up the middle (2-1 BBS).
+1218,out at first 1b to p (2-2 SBFB).
+1225,"singled through the right side, 2 RBI (1-2 SFFBFFF); A. Hicks advanced to third; J. Burke scored; D. Preziuso scored."
+1233,"singled to left field (0-0); A. Hicks advanced to second; B. Laqui advanced to third, out at home rf to c."
+1240,grounded out to 1b unassisted (0-0).
+1249,struck out swinging (1-2 SFBS).
+1258,flied out to lf.
+1265,walked.
+1272,"homered to center field, 2 RBI; A. Hicks scored."
+1277,"tripled to right field, RBI; A. Hicks scored."
+1283,walked; A. Hicks advanced to second.
+1290,grounded out to p (1-2 BKF); A. Hicks advanced to third.
+1295,struck out swinging (1-2 KFBFS).
+1300,grounded out to 2b (1-0 B).
+1310,reached on a fielding error by 1b (3-2 BKKBB).
+1319,walked (3-0 BBBB); A. Hicks advanced to second; D. Preziuso advanced to third.
+1324,to 1b.
+1331,lined out to ss (3-2 KBBKBF).
+1336,"walked, RBI (3-1 BBKBB); A. Hicks advanced to second; W. Bercaw advanced to third; B. Anderson scored."
+1343,singled up the middle (0-0).
+1344,advanced to second on a wild pitch.
+1350,singled to shortstop (0-1 K).
+1358,flied out to rf (1-2 FKFFB).
+1365,walked (3-1 BKBBB).
+1371,struck out swinging (0-2 SSS).
+1378,lined out to 1b (2-0 BB).
+1385,walked (3-2 BSBFBB).
+1394,struck out looking (1-2 BFSS).
+1400,"reached on a fielder's choice to shortstop, RBI (2-1 BBS); M. Nichols out at second ss to 2b; D. Preziuso scored."
+1418,"singled to right field, RBI (0-0); J. Burke advanced to second; D. Preziuso scored."
+1419,stole second; J. Burke stole third.
+1426,"tripled down the rf line, RBI (1-0 B); J. Burke scored."
+1427,scored on a wild pitch.
+1431,hit by pitch (0-0); D. Preziuso advanced to second.
+1436,flied out to lf (1-0 B).
+1444,lined out to ss (3-2 KBBBK).
+1451,"flied out to rf, SF, RBI (1-1 BK); W. Bercaw scored, unearned."
+1464,walked (3-0 BBBB).
+1473,walked (3-2 FBBKBB).
+1479,"homered to right field, 3 RBI (3-2 KBKBB); T. Neels scored; D. Preziuso scored."
+1485,walked (3-0 BBBB); T. Neels advanced to second.
+1493,grounded out to 2b (2-1 BKB).
+1504,flied out to lf (0-2 KK).
+1512,"grounded out to 1b unassisted, RBI (1-1 BF); D. Preziuso scored."
+1522,reached on a fielder's choice to first base (0-1 K); J. Amirata out at second 1b to ss; D. Preziuso advanced to third.
+1532,intentionally walked; J. Amirata advanced to second.
+1543,struck out swinging (1-2 SFBFS).
+1551,flied out to lf (0-0).
+1559,"flied out to cf, SF, RBI (1-2 SFB); D. Preziuso scored."
+1566,grounded out to 2b (2-1 BBS).
+1574,struck out looking (1-2 BKFK).
+1585,"flied out to ss, SF, RBI (3-1 BBBF); B. Laqui scored."
+1588,lined out to lf.
+1594,grounded out to ss; W. Bercaw advanced to third.
+1604,"singled to right field, RBI; D. Preziuso scored."
+1611,"homered to right center, RBI."
+1619,flied out to lf.
+1625,lined out to cf.
+1628,struck out swinging (3-2 BKBBKS).
+1636,"struck out swinging (1-2 BKKS); J. Burke out at second c to ss, caught stealing."
+1644,singled to left field (1-2 KBF); J. Burke advanced to second.
+1652,"singled through the right side, advanced to second on the throw, RBI; J. Burke advanced to third; D. Preziuso scored."
+1662,flied out to lf (2-0 BB).
+1668,struck out swinging (1-2 BSFS).
+1674,fouled out to 3b (3-1 BBBK).
+1682,singled up the middle (1-2 KFB).
+1691,"singled down the rf line, RBI (2-2 BSBS); M. Nichols advanced to third; D. Preziuso scored."
+1692,stole second.
+1702,"singled up the middle, RBI (2-0 BB); D. Preziuso advanced to third; M. Vivona scored."
+1703,stole second.
+1707,struck out looking (1-2 FSBK).
+1714,flied out to cf (0-0).
+1721,walked (3-1 BBBKB); D. Preziuso advanced to second.
+1722,"stole second, advanced to third on a throwing error by c; D. Preziuso stole third, scored on the error."
+1726,to 1b.
+1734,flied out to cf (2-2 BKFB).
+1745,reached on a fielder's choice up the middle (1-1 BF); W. Stellato advanced to second; D. Preziuso advanced to third; A. Hicks out at home cf to c.
+1748,grounded out to 2b (1-1 KB); J. Burke advanced to second; D. Preziuso advanced to third.
+1754,tripled to right field (1-0 B).
+1761,struck out swinging (0-2 SFFS).
+1768,"singled to right center, 2 RBI, advanced to second on the throw (0-0); J. Burke advanced to third; D. Preziuso scored; A. Stout scored."
+1775,struck out looking (1-2 BFFK).
+1782,"singled to first base, RBI (1-1 KB); A. Hicks advanced to third; D. Preziuso scored."
+1791,singled to left field (2-1 BBF).
+1802,walked (3-1 KBBBB).
+1807,to 2b.
+1810,"homered to right field, RBI (0-0); D. Preziuso scored."
+1818,walked (3-2 KBFBBB).
+1821,singled through the right side (1-1 KB); E. Ajewole advanced to second.
+1826,"homered to left center, 2 RBI (0-0); D. Preziuso scored."
+1831,flied out to cf (0-0).
+1840,grounded out to 1b unassisted (1-0 B).
+1849,flied out to rf (2-0 BB).
+1856,"singled down the 3b line, bunt (1-0 B); J. Burke advanced to second."
+1864,grounded into double play 1b unassisted (0-0); J. Burke out on the play.
+1871,"singled to right field, RBI (1-1 KB); J. Burke scored."
+1879,intentionally walked (3-0 BBBB).
+1880,to 3b.
+1890,struck out swinging (1-2 SFBFS).
+1896,walked (3-2 BBBSSFB).
+1902,"homered, 2 RBI (0-1 S); J. Burke scored."
+1914,"homered, 2 RBI (1-1 BS); J. Burke scored."
+1917,to 1b.
+1923,struck out swinging (0-2 SFS).
+1929,grounded out to 2b (0-2 KK).
+1938,walked (3-2 KFBBBFB).
+1945,singled through the right side (0-1 F).
+1953,"flied out to lf, SF, RBI (1-1 FB); J. Burke scored."
+1955,"homered to right field, RBI."
+1960,walked.
+1971,walked.
+1979,singled up the middle.
+1988,doubled to left field.
+1991,"homered down the rf line, 2 RBI (0-2 FK); D. Preziuso scored, unearned."
+1997,struck out swinging (2-2 KBKBS).
+2003,struck out swinging (2-2 KBSBFS).
+2010,tripled to left center (0-0).
+2021,"doubled to center field, RBI (1-0 B); J. Burke scored."
+2030,walked (3-1 BBFBB); J. Burke advanced to second.
+2038,tripled to center field (1-0 B).
+2047,"singled to center field, RBI (2-1 BFB); J. Burke scored, unearned."
+2053,"singled through the right side, RBI (0-1 K); D. Preziuso scored."
+2065,flied out to rf (0-1 F).
+2072,flied out to cf.
+2080,doubled to center field (1-0 B).
+2090,struck out swinging (3-2 BKKBBFFS).
+2101,grounded out to 2b (2-2 BBFF); J. Burke advanced to third.
+2108,hit by pitch (1-0 B); J. Burke advanced to second.
+2116,out at first 1b to p (0-0).
+2123,to 3b.
+2127,struck out swinging (2-2 KFBB).
+2140,walked (3-1 FBBBB).
+2145,grounded out to 2b (0-0).
+2151,grounded out to 1b unassisted (0-2 FK); J. Burke advanced to second.
+2158,lined out to 3b (0-0).
+2164,struck out swinging (0-2 KSS).
+2174,struck out swinging (0-2 KSS).
+2181,reached on a fielder's choice to second base (1-2 FFFB); R. Murphy out at second 2b to ss.
+2189,grounded out to ss (0-1 K).
+2196,"reached on a throwing error by 2b, out at second c to ss (0-1 K)."
+2204,struck out swinging (3-2 KKBBBK).
+2209,flied out to lf (0-1 K).
+2214,struck out swinging (1-2 KKBS).
+2217,to 3b.
+2221,struck out swinging (3-2 BKBFBS).
+2229,struck out looking (1-2 BKKK).
+2230,to 1b.
+2248,struck out swinging (0-2 FFS).
+2257,grounded out to p (1-1 BK).
+2266,walked (3-2 BBSFBB); A. Hicks advanced to second; J. Burke advanced to third.
+2278,doubled to right field (2-2 BBKF).
+2288,walked (3-2 BFBFBB); A. Hicks advanced to second.
+2298,flied out to cf (0-0).
+2309,struck out swinging (3-2 KBBKBS).
+2318,walked (3-2 KBBBKB); A. Hicks advanced to second.
+2335,"flied out to rf, SF, RBI; A. Hicks advanced to second; J. Burke scored."
+2347,struck out.
+2360,grounded out to 1b unassisted; J. Burke advanced to third.
+2371,lined out to cf.
+2383,"singled, RBI (0-1 S); J. Burke scored."
+2384,stole second.
+2394,popped up to cf.
+2404,flied out to lf.
+2414,popped up to ss.
+2424,flied out to lf.
+2436,flied out to cf; J. Burke advanced to third.
+2448,intentionally walked; A. Hicks advanced to second.
+2453,grounded out to 2b; A. Hicks advanced to second; J. Burke advanced to third.
+2462,hit by pitch.
+2472,"singled to center field, RBI; W. Stellato scored."
+2484,grounded out to 2b.
+2498,"singled up the middle, advanced to second on the throw, 2 RBI; W. Stellato; A. Hicks scored."
+2504,"homered down the rf line, inside the park, 3 RBI; A. Hicks scored; J. Burke scored."
+2513,"reached on a fielder's choice, RBI; A. Hicks advanced to second on a fielding error by 2b; R. Murphy scored, unearned."
+2526,"singled through the right side, RBI; A. Hicks scored."
+2540,"tripled to right field, 3 RBI; A. Hicks scored; J. Burke scored; M. Nichols scored."
+2552,walked.
+2563,grounded out to 2b.
+2575,tripled to right center (2-2 SBBK).
+2583,"singled to right field, 2 RBI (2-1 BFB); J. Burke advanced to third; R. Murphy scored; B. Laqui scored, unearned."
+2594,walked (3-1 BBBKB).
+2603,to 1b.
+2607,"tripled to left field, 2 RBI; J. Burke scored; R. Murphy scored."
+2617,singled to right center (0-2 KF); A. Hicks advanced to second.
+2623,walked (3-2 BBBKFB).
+2634,struck out looking (3-2 KFBBFFFBK).
+2643,flied out to lf (0-0).
+2659,struck out swinging (3-2 BFBKBFFS).
+2665,walked (3-2 BSKFFBBFFB).
+2674,struck out swinging (2-2 BFFBFS); J. Burke stole second.
+2686,"doubled to left field, 2 RBI (0-1 F); A. Hicks scored; J. Burke scored."
+2698,grounded out to 1b unassisted (0-1 S).
+2708,"fouled out to lf, SF, RBI (1-2 BSF); J. Burke scored."
+2719,struck out looking (3-2 KBFBBK).
+2728,"doubled to left field, RBI (0-1 K); A. Hicks advanced to third; R. Murphy scored."
+2737,struck out swinging (2-2 KBBKS).
+2749,walked (3-1 BBFBB); A. Hicks advanced to second.
+2760,to 1b.
+2766,flied out to cf (0-0).
+2772,singled to left center (2-1 KBB).
+2781,popped up to 3b (2-2 KBSFB).
+2791,"homered to right field, 3 RBI (1-2 FBKFF); W. Stellato scored; J. Burke scored."
+2805,struck out swinging (0-2 KFS).
+2815,walked.
+2824,flied out to lf.
+2834,flied out to rf.
+2846,singled.
+2848,advanced to second on a wild pitch.
+2860,flied out to cf.
+2871,reached on a fielder's choice; W. Stellato advanced to second; J. Burke advanced to third; R. Murphy out at home 1b to c.
+2880,walked.
+2889,hit by pitch.
+2893,"out at home p to 1b to c, caught stealing."
+2903,"grounded out to 2b, RBI; J. Burke scored, unearned."
+2915,popped up to 2b.
+2926,"doubled to left field, 2 RBI; J. Burke scored; R. Murphy scored."
+2935,"singled to right field, RBI; J. Burke scored."
+2946,singled to right field.
+2955,singled to first base.
+2967,"tripled to right center, 2 RBI; W. Stellato scored; L. Gregory scored."
+2985,flied out to rf (3-2 BBBSSF).
+2994,walked (3-0 BBBB); W. Stellato advanced to second.
+3003,"reached on a fielder's choice to shortstop, RBI (1-2 SFBF); W. Stellato advanced to second on a fielding error by ss; J. Burke advanced to third; R. Murphy scored."
+3014,"doubled to right field, RBI (1-0 B); W. Stellato advanced to third; J. Burke scored."
+3027,lined out to 1b (1-2 BFFF).
+3033,walked (3-1 BBBKB); W. Stellato advanced to second.
+3042,grounded out to 3b (0-1 S).
+3051,flied out to cf (0-0).
+3061,singled up the middle (3-1 BBBK).
+3077,singled to right field (2-1 BSB).
+3086,grounded out to 2b (0-1 K).
+3098,intentionally walked (3-0 BBB).
+3111,struck out swinging (0-2 KFS).
+3116,walked (3-0 BBBB).
+3118,advanced to third on a wild pitch.
+3130,"singled to center field, RBI (1-0 B); J. Burke advanced to third; H. Smith scored."
+3132,advanced to third on a wild pitch.
+3140,"homered to right field, 3 RBI (3-2 KBBBFFFF); J. Burke scored; R. Murphy scored."
+3150,"singled down the rf line, 2 RBI (1-2 KBF); J. Burke advanced to third; R. Murphy scored; B. Andersen scored."
+3182,singled to second base (2-2 KBFB).
+3183,"stole second, advanced to third on a throwing error by c."
+3192,singled through the right side (1-1 BK).
+3203,walked (3-0 BBBB); J. Burke advanced to second; R. Murphy advanced to third.
+3215,walked (3-1 KBBBB); R. Murphy advanced to second.
+3246,walked (3-1 KBBBB).
+3256,"flied out to cf, SF, 2 RBI (2-1 KBB); J. Burke scored; H. Smith scored."
+3266,walked (3-1 BKBBB).
+3277,grounded out to 2b (1-2 BSF).
+3279,to 1b.
+3304,singled through the right side (0-2 KSF).
+3313,flied out to cf (2-1 BFB).
+3323,singled through the right side (2-2 BFBS); J. Burke advanced to second; R. Murphy advanced to third.
+3334,struck out swinging (2-2 BBKFS).
+3349,to 1b.
+3352,flied out to lf (1-1 SB).
+3364,grounded out to ss (3-2 BKSBFB).
+3369,flied out to cf (2-1 KBB); J. Burke advanced to third.
+3379,infield fly to 3b (2-0 BB); J. Burke advanced to second; R. Murphy out at third 3b to c.
+3388,struck out swinging (1-2 BKFS).
+3400,singled to center field (0-0).
+3416,"singled to left center, RBI (1-0 B); R. Murphy advanced to second; M. Carr scored."
+3433,"homered, 3 RBI (3-1 BBBK); R. Murphy scored; H. Smith scored."
+3438,to 1b.
+3443,grounded out to 2b.
+3452,"doubled, RBI; J. Burke scored."
+3464,popped up to p.
+3474,flied out to cf.
+3486,"doubled, RBI; J. Burke advanced to third; R. Murphy scored."
+3519,struck out swinging.
+3529,"grounded out to 1b unassisted; J. Burke advanced to second, advanced to third on an error by 1b, scored."
+3538,flied out to rf.
+3548,flied out to cf.
+3562,grounded out to 1b unassisted; R. Murphy advanced to second.
+3565,singled up the middle (1-2 FBS).
+3574,flied out to lf (1-2 FBF).
+3583,lined out to rf (2-0 BB).
+3599,singled to center field (0-0).
+3605,flied out to rf (0-2 KF).
+3614,reached on a fielder's choice to first base (3-1 BBKB); R. Murphy out at second 1b to ss; B. Andersen advanced to third.
+3624,struck out swinging (1-2 KKBS).
+3634,"homered to right field, RBI (1-0 B)."
+3646,"singled to left field, RBI, out at second lf to 2b (1-1 BK); R. Murphy scored, obstruction."
+3661,"homered to right field, RBI (0-2 FSFF)."
+3670,flied out to cf (1-1 KB).
+3679,struck out swinging (1-2 BSKS).
+3690,to 2b.
+3692,walked (3-2 BBKKBB); J. Burke advanced to second.
+3706,"walked, RBI (3-2 FBBBFFB); J. Burke advanced to second; R. Murphy advanced to third; M. Carr scored."
+3716,"reached on a fielder's choice to second base, RBI (1-1 BK); J. Burke out at second 2b to ss; R. Murphy advanced to third; W. Roche scored."
+3717,stole second.
+3730,struck out swinging (2-2 BFBFS).
+3740,reached on a fielder's choice to first base (1-2 KSB); J. Burke advanced to second; R. Murphy advanced to third; W. Roche out at home 1b to c.
+3749,singled up the middle (1-1 BF).
+3751,stole second.
+3762,flied out to rf (0-1 K).
+3773,to 3b.
+3780,"singled to right field, 2 RBI (0-2 FFFF); J. Burke scored; A. Hicks scored."
