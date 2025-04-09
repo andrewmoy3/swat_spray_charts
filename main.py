@@ -16,6 +16,12 @@ roster_url = f'https://{url_team_name}.com/sports/baseball/roster'
 schedule_url = f'https://{url_team_name}.com/sports/baseball/schedule/'
 ##########
 
+hits = ['singled']
+xbh = ['doubled', 'tripled', 'homered']
+outs = ['flied', 'grounded', 'lined', 'fouled', 'popped', ]
+misc = ['error', 'fielder\'s']
+types = {'hits': hits, 'xbh': xbh, 'outs': outs, 'misc': misc}
+
 def main():
     if not os.path.exists(f'spray_charts/{team}'):
         os.mkdir(f'spray_charts/{team}')
@@ -37,7 +43,7 @@ def main():
     ## uncomment to use, leave commented if data already scraped
     ## 2 seconds per season
     start = time.time()
-    get_play_by_play(boxscores, team)
+    # get_play_by_play(boxscores, team)
     end = time.time()
     print("Play by Plays scraped: ", end - start)
 
@@ -59,9 +65,9 @@ def main():
         plays = play_by_play.loc[play_by_play['Name'] == full_name, 'Play']
 
         ## create spray chart data from play by play data
-        create_chart_data(plays, team, first_name, last_name)
+        create_chart_data(plays, team, first_name, last_name, types)
         ## create spray chart image from csv data
-        create_chart_image(team, first_name, last_name, number)   
+        create_chart_image(team, first_name, last_name, number, types)   
         
     ## stitch all spray chart images into a pdf
     stitch_to_pdf(team)

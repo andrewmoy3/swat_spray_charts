@@ -1,7 +1,9 @@
 import os 
+import numpy as np  
 import pandas as pd
 from PIL import Image
 import tempfile
+import cv2
 from fpdf import FPDF
 
 def stitch_to_pdf(team):   
@@ -14,6 +16,9 @@ def stitch_to_pdf(team):
     COL_SPACING = 10
 
     images = [] 
+    tutorial = Image.open("tutorial.png")
+    images.append(tutorial)
+
     roster = pd.read_csv(f'rosters/{team}.csv').sort_values(by="Number", ascending=True) 
     for index, row in roster.iterrows():
         first_name = row['First Name'].strip()

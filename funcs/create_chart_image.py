@@ -1,106 +1,91 @@
 import sys
 import pandas as pd
 from PIL import Image, ImageDraw, ImageFont
+import cv2
 import os
-
-
-# positions = {'1b', 'first base', '2b', 'second base', '3b', 'third base', 'ss', 'shortstop', 'lf','left field', 'left side', 'cf', 'center field', 'up the middle', 'rf', 'right field', 'right side', 'p', 'pitcher', 'c', 'catcher'}
+import numpy as np
 
 # gets data from spray_charts/ folder and creates a spray chart image, saves to spray_chart_pics/ folder
-def create_chart_image(team, first_name, last_name, number):
+def create_chart_image(team, first_name, last_name, number, types):
     # read in data from csv files
-    if not os.path.exists(f'spray_chart_pics/{team}'):
-        os.mkdir(f'spray_chart_pics/{team}')
+    # if not os.path.exists(f'spray_chart_pics/{team}'):
+    #     os.mkdir(f'spray_chart_pics/{team}')
     
     if not os.path.exists(f'spray_charts/{team}/{first_name}_{last_name}.csv'):
         return
 
     df = pd.read_csv(f'spray_charts/{team}/{first_name}_{last_name}.csv')
 
-    first = df.loc[df['Positions'] == '1b', '#'].values[0] + df.loc[df['Positions'] == 'first base', '#'].values[0]
-    second = df.loc[df['Positions'] == '2b', '#'].values[0] + df.loc[df['Positions'] == 'second base', '#'].values[0]
-    third = df.loc[df['Positions'] == '3b', '#'].values[0] + df.loc[df['Positions'] == 'third base', '#'].values[0]
-    ss = df.loc[df['Positions'] == 'ss', '#'].values[0] + df.loc[df['Positions'] == 'shortstop', '#'].values[0]
-    lf = df.loc[df['Positions'] == 'lf', '#'].values[0] + df.loc[df['Positions'] == 'left field', '#'].values[0] + df.loc[df['Positions'] == 'left side', '#'].values[0] + df.loc[df['Positions'] == 'left center', '#'].values[0]
-    cf = df.loc[df['Positions'] == 'cf', '#'].values[0] + df.loc[df['Positions'] == 'center field', '#'].values[0] + df.loc[df['Positions'] == 'up the middle', '#'].values[0]
-    rf = df.loc[df['Positions'] == 'rf', '#'].values[0] + df.loc[df['Positions'] == 'right field', '#'].values[0] + df.loc[df['Positions'] == 'right side', '#'].values[0] + df.loc[df['Positions'] == 'right center', '#'].values[0]
-    pitcher = df.loc[df['Positions'] == 'p', '#'].values[0] + df.loc[df['Positions'] == 'pitcher', '#'].values[0]
-    catcher = df.loc[df['Positions'] == 'c', '#'].values[0] + df.loc[df['Positions'] == 'catcher', '#'].values[0]
+    def get_text_size(text, font, scale, thickness):
+        return cv2.getTextSize(text, font, scale, thickness)[0]
 
-    # print(first_name, last_name)
-    # print("1B: ", first)
-    # print("2B: ", second)
-    # print("3B: ", third)
-    # print("SS: ", ss)
-    # print("LF: ", lf)
-    # print("CF: ", cf)
-    # print("RF: ", rf)
-    # print("P: ", pitcher)
-    # print("C: ", catcher)
+    def draw_centered_text(image, text, x, y, font, scale, color, thickness):
+        text_size = get_text_size(text, font, scale, thickness)
+        text_x = x - text_size[0] // 2
+        text_y = y + text_size[1] // 2  
+        cv2.putText(image, text, (text_x, text_y), font, scale, color, thickness)
 
-    sum = first + second + third + ss + lf + cf + rf + pitcher + catcher
-    if sum == 0:
-        return
-    first_ratio = first / sum
-    second_ratio = second / sum
-    third_ratio = third / sum
-    ss_ratio = ss / sum
-    lf_ratio = lf / sum
-    cf_ratio = cf / sum
-    rf_ratio = rf / sum
-    pitcher_ratio = pitcher / sum
-    catcher_ratio = catcher / sum
+    img = cv2.imread("empty_chart.jpg")  
+    img = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
+    width = img.shape[1]
 
-    # overlay number of occurrences on spray chart
-    img = Image.open("empty_chart.jpg").convert("RGB")  
-    font = ImageFont.truetype("arial.ttf", 25) 
-    draw = ImageDraw.Draw(img)
+    font = cv2.FONT_HERSHEY_SIMPLEX
+    font_scale = 1
+    thickness = 2
 
-    width = img.width
-    third_x, third_y = 105, 285
-    ss_x, ss_y = 155, 220
-    lf_x, lf_y = 65, 150 
-    cf_y = 80
-    p_y = 290
-    c_y = 450
+    name_x, y_offset = width // 2, 25
+    line_spacing = 10
 
-
-    # Adjust position for text width
-    def centered_x(text, x_pos):
-        text_width = draw.textbbox((0, 0), str(text), font=font)[2]  # Get text width
-        return x_pos - text_width // 2  # Center the text
-    
-    def blue_value(ratio):
-        if ratio == 0:
-            return 255
-        return round(.5 / ratio)
-
-    # add name to top of photo
-    name_text = f"{first_name} {last_name}\n{int(number)}"
-    name_x = width // 2  # Center X
-    name_y = 20  # Start Y position
-    lines = name_text.split("\n")
-    line_spacing = 5  # Adjust line spacing if needed
-    y_offset = name_y
-
+    lines = [f"{first_name} {last_name}", str(int(number))]
     for line in lines:
-        bbox = draw.textbbox((0, 0), line, font=font)  # Get bounding box (left, top, right, bottom)
-        text_width = bbox[2] - bbox[0]  # Calculate text width
-        text_height = bbox[3] - bbox[1]  # Calculate text height
-        
-        draw.text((name_x - text_width // 2, y_offset), line, fill=(0, 0, 0), font=font)
-        
-        y_offset += text_height + line_spacing  # Move Y position for next line
+        text_size = get_text_size(line, font, font_scale, thickness)
+        draw_centered_text(img, line, name_x, y_offset, font, font_scale, (0, 0, 0), thickness)
+        y_offset += text_size[1] + line_spacing 
 
-    draw.text((centered_x(first, width - third_x), third_y), f"{first}", fill=(round(255*first_ratio), 0, blue_value(first_ratio)), font=font)
-    draw.text((centered_x(second, width - ss_x), ss_y), f"{second}", fill=(round(255*second_ratio), 0, blue_value(second_ratio)), font=font)
-    draw.text((centered_x(third, third_x), third_y), f"{third}", fill=(round(255*third_ratio), 0, blue_value(third_ratio)), font=font)
-    draw.text((centered_x(ss, ss_x), ss_y), f"{ss}", fill=(round(255*ss_ratio), 0, blue_value(ss_ratio)), font=font)
-    draw.text((centered_x(lf, lf_x), lf_y), f"{lf}", fill=(round(255*lf_ratio), 0, blue_value(lf_ratio)), font=font)
-    draw.text((centered_x(cf, width // 2), cf_y), f"{cf}", fill=(round(255*cf_ratio), 0, blue_value(cf_ratio)), font=font)
-    draw.text((centered_x(rf, width - lf_x), lf_y), f"{rf}", fill=(round(255*rf_ratio), 0, blue_value(rf_ratio)), font=font)
-    draw.text((centered_x(pitcher, width // 2), p_y), f"{pitcher}", fill=(round(255*pitcher_ratio), 0, blue_value(pitcher_ratio)), font=font)
-    draw.text((centered_x(catcher, width // 2), c_y), f"{catcher}", fill=(round(255*catcher_ratio), 0, blue_value(catcher_ratio)), font=font)
+    third_x, third_y = 105, 285
+    ss_x, ss_y = 170, 220
+    lf_x, lf_y = 65, 150 
+    positions = {
+        "1b": (width - third_x, third_y),
+        "2b": (width - ss_x, ss_y),
+        "3b": (third_x, third_y),
+        "ss": (ss_x, ss_y),
+        "lf": (lf_x, lf_y),
+        "cf": ((width // 2)+1, 90),
+        "rf": (width - lf_x, lf_y),
+        "p": ((width // 2)+1, 300),
+        "c": ((width // 2)+1, 420),
+    }
 
-    img.save(f'spray_chart_pics/{team}/{first_name}_{last_name}.jpg')
+    def get_color(ratio):
+        blue = int(255 * (1 - ratio) / 2)  
+        red = int(min(255 * ratio * 2, 255))  
+        return (blue, 0, red)  
+
+    total = df.iloc[:, 1:].sum().sum()
+    for pos, (x, y) in positions.items():
+        increment = 20
+        row = df.loc[df['Category'] == pos]
+        singles = row.iloc[:, 1].sum().sum()
+        xbh = row.iloc[:, 2].sum().sum()
+        outs = row.iloc[:, 3].sum().sum()
+        misc = row.iloc[:, 4].sum().sum()
+        pos_total = singles + xbh + outs + misc
+        pos_color = get_color(pos_total / total) if total > 0 else (255, 0, 0)
+        singles_color = get_color(singles / pos_total) if pos_total > 0 else (255, 0, 0)
+        xbh_color = get_color(xbh / pos_total) if pos_total > 0 else (255, 0, 0)
+        outs_color = get_color(outs / pos_total) if pos_total > 0 else (255, 0, 0)
+        misc_color = get_color(misc / pos_total) if pos_total > 0 else (255, 0, 0)
+
+        draw_centered_text(img, str(pos_total), x, y, font, font_scale, pos_color, thickness)
+        if pos in ['lf', 'cf', 'rf']:
+            draw_centered_text(img, str(singles), x, y+increment, font, font_scale/2, singles_color, thickness)
+            draw_centered_text(img, str(xbh), x, y+2*increment, font, font_scale/2, xbh_color, thickness)
+        else: 
+            draw_centered_text(img, str(singles), x, y+increment, font, font_scale/2, singles_color, thickness)
+            draw_centered_text(img, str(outs), x, y+2*increment, font, font_scale/2, outs_color, thickness)
+            draw_centered_text(img, str(misc), x, y+3*increment, font, font_scale/2, misc_color, thickness)
+
+    os.makedirs(f'spray_chart_pics/{team}', exist_ok=True)
+    cv2.imwrite(f'spray_chart_pics/{team}/{first_name}_{last_name}.jpg', img)
 
